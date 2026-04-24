@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0A0A0A" />
+  <title>Tones Media — Il tuo business, amplificato.</title>
+  <meta name="description" content="Agenzia digitale a 360°. Siti, brand, contenuti e campagne che portano risultati misurabili. Calabria, Italia." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand" aria-label="Tones Media home">
+        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="3" fill="#C6FF3D"/>
+          <circle cx="12" cy="12" r="6.5" fill="none" stroke="#C6FF3D" stroke-width="1.2" opacity="0.55"/>
+          <circle cx="12" cy="12" r="10" fill="none" stroke="#C6FF3D" stroke-width="1" opacity="0.25"/>
+        </svg>
+        tones<span style="color:var(--faint)">·</span>media
+      </a>
+
+      <nav class="nav__links" aria-label="Navigazione principale">
+        <a class="nav__link" data-nav-link href="index.html">Home</a>
+        <a class="nav__link" data-nav-link href="servizi.html">Soluzioni</a>
+        <a class="nav__link" data-nav-link href="chi-siamo.html">Chi siamo</a>
+        <a class="nav__link" data-nav-link href="contatti.html">Contatti</a>
+      </nav>
+
+      <a href="contatti.html" class="btn btn--primary btn--sm nav__cta">
+        Contattaci
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+
+      <button class="nav__burger" aria-label="Apri menu" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+
+  <aside class="sheet" aria-hidden="true">
+    <ul class="sheet__list">
+      <li><a class="sheet__link" data-nav-link href="index.html">Home <span class="arrow">→</span></a></li>
+      <li><a class="sheet__link" data-nav-link href="chi-siamo.html">Chi siamo <span class="arrow">→</span></a></li>
+      <li><a class="sheet__link" data-nav-link href="servizi.html">Soluzioni <span class="arrow">→</span></a></li>
+      <li><a class="sheet__link" data-nav-link href="contatti.html">Contatti <span class="arrow">→</span></a></li>
+    </ul>
+    <div class="sheet__foot">
+      <div>Calabria, Italia</div>
+      <div>tonesmediagency@gmail.com</div>
+      <div>@tonesmedia.it · @tonesmedia</div>
+    </div>
+  </aside>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div style="display:grid;gap:48px;grid-template-columns:1fr;align-items:center;" class="hero__grid">
+          <div class="stagger">
+            <span class="eyebrow reveal">Agenzia digitale · Calabria</span>
+            <h1 class="h-display hero__title reveal">Il tuo business,<br/><em>amplificato.</em></h1>
+            <p class="hero__sub reveal">
+              Progettiamo siti, brand e contenuti che fanno una cosa sola: trasformare la tua presenza online in clienti, prenotazioni e fatturato. Niente promesse vaghe — ogni scelta nasce da una strategia chiara.
+            </p>
+            <div class="cta-row reveal">
+              <a href="contatti.html" class="btn btn--primary btn--lg">
+                Parliamo del tuo progetto
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+              <a href="servizi.html" class="btn btn--ghost btn--lg">
+                Scopri le soluzioni
+              </a>
+            </div>
+          </div>
+
+          <div class="reveal" style="justify-self:center;">
+            <svg class="wave-logo" viewBox="0 0 200 200" aria-hidden="true">
+              <circle class="dot" cx="100" cy="100" r="12" />
+              <circle cx="100" cy="100" r="32" />
+              <circle cx="100" cy="100" r="54" />
+              <circle cx="100" cy="100" r="78" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      @media (min-width: 900px) {
+        .hero__grid { grid-template-columns: 1.3fr 1fr !important; gap: 64px !important; }
+      }
+    </style>
+
+    <!-- Stats -->
+    <section class="section" style="padding-top:0;padding-bottom:72px;">
+      <div class="container">
+        <div class="stats stats--3 stats--hero reveal stagger">
+          <div class="stat reveal">
+            <div class="stat__num"><em>48h</em></div>
+            <div class="stat__label">Per il tuo piano d'azione</div>
+          </div>
+          <div class="stat reveal">
+            <div class="stat__num"><em>8</em></div>
+            <div class="stat__label">Soluzioni integrate</div>
+          </div>
+          <div class="stat reveal">
+            <div class="stat__num"><em>100%</em></div>
+            <div class="stat__label">Progetti su misura</div>
+          </div>
+        </div>
+        <div class="reveal" style="display:flex;justify-content:center;margin-top:32px;">
+          <a href="contatti.html" class="btn btn--primary btn--lg">
+            Inizia il tuo progetto
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value trio -->
+    <section class="section">
+      <div class="container">
+        <div class="reveal" style="max-width:680px;margin-bottom:48px;">
+          <span class="eyebrow">Perché Tones Media</span>
+          <h2 class="h-section" style="margin-top:14px;">Tre motivi per smettere di improvvisare online.</h2>
+          <p class="lede">Quando un progetto parte con le idee chiare, i risultati arrivano prima. Ecco cosa ci differenzia.</p>
+        </div>
+
+        <div class="cards stagger">
+          <article class="card reveal">
+            <div class="card__num">01</div>
+            <h3 class="card__title">Strategia prima di tutto</h3>
+            <p class="card__body">Nessun progetto parte senza una direzione. Prima capiamo chi sei, a chi parli e cosa vuoi ottenere — poi costruiamo.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__num">02</div>
+            <h3 class="card__title">Cosa riceverai concretamente.</h3>
+            <p class="card__body">Riceverai tutto ciò che serve per dare una direzione professionale alla tua attività. Ti forniamo gli asset e la struttura per rendere la tua azienda visibile e pronta per il mercato.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__num">03</div>
+            <h3 class="card__title">Un solo interlocutore</h3>
+            <p class="card__body">Sito, brand, social, campagne, automazioni: una squadra sola, un referente solo, tempi più corti e zero rimpalli.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__item">Strategia chiara</span>
+        <span class="marquee__item">Risultati misurabili</span>
+        <span class="marquee__item">Contenuti che convertono</span>
+        <span class="marquee__item">Tempi rapidi</span>
+        <span class="marquee__item">Un solo referente</span>
+        <span class="marquee__item">Calabria · Italia</span>
+        <span class="marquee__item">Strategia chiara</span>
+        <span class="marquee__item">Risultati misurabili</span>
+        <span class="marquee__item">Contenuti che convertono</span>
+        <span class="marquee__item">Tempi rapidi</span>
+        <span class="marquee__item">Un solo referente</span>
+        <span class="marquee__item">Calabria · Italia</span>
+      </div>
+    </div>
+
+    <!-- Featured work -->
+    <section class="section">
+      <div class="container">
+        <div class="reveal" style="display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:40px;">
+          <div style="max-width:560px;">
+            <span class="eyebrow">Progetti</span>
+            <h2 class="h-section" style="margin-top:14px;">Quello che abbiamo <em>già costruito.</em></h2>
+            <p class="lede">Una selezione dei progetti che hanno generato risultati concreti per clienti reali.</p>
+          </div>
+        </div>
+
+        <div class="work stagger">
+          <article class="work__item reveal">
+            <div class="work__sector">Beauty · Calabria</div>
+            <h3 class="work__title">Un salone che prenota da solo, 7 giorni su 7.</h3>
+            <p style="color:var(--muted);font-size:14.5px;margin:0 0 16px;">Brand identity black/gold/cream, sito multi-pagina con dashboard interna, sistema di appuntamenti e booking via WhatsApp.</p>
+            <div class="work__tags">
+              <span class="pill">Brand identity</span>
+              <span class="pill">Sito + CMS</span>
+              <span class="pill">Booking</span>
+              <span class="pill">Video</span>
+            </div>
+          </article>
+
+          <article class="work__item reveal">
+            <div class="work__sector">Turismo · Calabria</div>
+            <h3 class="work__title">Un villaggio bilingue che parla a due mercati.</h3>
+            <p style="color:var(--muted);font-size:14.5px;margin:0 0 16px;">Sito IT/EN con toggle lingua dinamico, gallery con lightbox, mappa interattiva e prenotazioni dirette via WhatsApp.</p>
+            <div class="work__tags">
+              <span class="pill">Sito bilingue</span>
+              <span class="pill">Booking</span>
+              <span class="pill">Gallery</span>
+              <span class="pill">Mappa</span>
+            </div>
+          </article>
+
+          <article class="work__item reveal">
+            <div class="work__sector">Gioielleria · Sud Italia</div>
+            <h3 class="work__title">Un brand che unisce streetwear e lusso.</h3>
+            <p style="color:var(--muted);font-size:14.5px;margin:0 0 16px;">Identità visiva completa e workflow di contenuti AI per campagne visual coerenti su ogni piattaforma.</p>
+            <div class="work__tags">
+              <span class="pill">Brand identity</span>
+              <span class="pill">Content</span>
+              <span class="pill">Campagne</span>
+            </div>
+          </article>
+
+          <article class="work__item reveal">
+            <div class="work__sector">Social Media · Calabria</div>
+            <h3 class="work__title">Un'agenzia locale che genera lead ogni settimana.</h3>
+            <p style="color:var(--muted);font-size:14.5px;margin:0 0 16px;">Brand, sito, CRM dashboard e motore di lead generation mirato al territorio. Tutto su una piattaforma unica.</p>
+            <div class="work__tags">
+              <span class="pill">Brand</span>
+              <span class="pill">Sito</span>
+              <span class="pill">CRM</span>
+              <span class="pill">Lead gen</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="section">
+      <div class="container">
+        <div class="band reveal">
+          <span class="eyebrow">Pronto a partire?</span>
+          <h2 class="h-section" style="margin-top:12px;">Raccontaci il progetto. Torniamo con un piano <em>in 48 ore.</em></h2>
+          <p>Un preventivo personalizzato, senza listini gonfiati né sorprese. Solo una proposta chiara su cosa fare, come, in quanto tempo e a che costo.</p>
+          <div class="cta-row" style="margin-top:8px;">
+            <a href="contatti.html" class="btn btn--primary btn--lg">
+              Richiedi preventivo
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="mailto:tonesmediagency@gmail.com" class="btn btn--ghost btn--lg">Scrivici una mail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <div class="container">
+      <div class="foot__grid">
+        <div>
+          <div class="foot__brand">tones<em>·</em>media</div>
+          <p class="foot__meta">Il tuo business, amplificato. Agenzia digitale a 360° con base in Calabria — per attività locali, PMI e imprenditori che vogliono risultati veri, non promesse.</p>
+        </div>
+        <div class="foot__col">
+          <h4>Navigazione</h4>
+          <a href="index.html">Home</a>
+          <a href="chi-siamo.html">Chi siamo</a>
+          <a href="servizi.html">Soluzioni</a>
+          <a href="contatti.html">Contatti</a>
+        </div>
+        <div class="foot__col">
+          <h4>Contatti</h4>
+          <a href="mailto:tonesmediagency@gmail.com">tonesmediagency@gmail.com</a>
+          <a href="https://instagram.com/tonesmedia.it" target="_blank" rel="noopener">Instagram · @tonesmedia.it</a>
+          <a href="https://tiktok.com/@tonesmedia" target="_blank" rel="noopener">TikTok · @tonesmedia</a>
+        </div>
+      </div>
+      <div class="foot__bar">
+        <div>© <span id="y"></span> Tones Media. Tutti i diritti riservati.</div>
+        <div>Calabria · Italia</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="app.js" defer></script>
+</body>
+</html>
